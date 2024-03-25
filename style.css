@@ -284,10 +284,11 @@ button:nth-child(7){
     position: relative;
     top:5.6rem;
 }
+
 @media (max-width:480px) {
     h4{
         top:41rem;
-        dispaly:none;
+        display:none;
     }
     #color{
         font-size:1.2rem;
@@ -303,27 +304,27 @@ button:nth-child(7){
     }
     h3{
         top:41rem;
-          dispaly:none;
+        display:none;
         font-size:0.9rem;
         line-height:1.6rem;
     }
     #data-component{
-        height:22rem;
+        height:19rem;
     }
     #balance{
-        width:14rem;
+        width:17rem;
     }
     h2{
-        font-size:1rem;
+        font-size:1.1rem;
     }
     #colorchange{
         font-size:1.6rem;
     }
     #data-component{
-        width:15rem;
+        width:18rem;
     }
     #weekly-component{
-        width:18rem;
+        width:21.5rem;
         right:1.5rem;
     }
     button:nth-child(1){
@@ -358,32 +359,32 @@ button:nth-child(7){
     }
     #blacktwo{
         top:-8rem;
-        left:2.2rem;
+        left:2.5rem;
         font-size:0.7rem;
     }
     #blackthree{
         top:-11.5rem;
-        left:5rem;
+        left:5.5rem;
         font-size:0.7rem;
     }
     #blackfour{
         top:-7rem;
-        left:7.5rem;
+        left:8.5rem;
         font-size:0.7rem;
     }
     #blackfive{
         top:-6rem;
-        left:9.8rem;
+        left:11.5rem;
         font-size:0.7rem;
     }
     #blacksix{
         top:-9rem;
-        left:12.5rem;
+        left:14.5rem;
         font-size:0.7rem;
     }
     #blackseven{
         top:-6.5rem;
-        left:15rem;
+        left:17.5rem;
         font-size:0.7rem;
     }
     #container{
@@ -394,83 +395,65 @@ button:nth-child(7){
         justify-content: center;
     }
 }
-@media (max-width:320px) {
-    h4{
-        top:42rem;
-    }
-    #color{
-        font-size:1.2rem;
-    }
-    #cl{
-        left:10rem;
-        top:-1rem;
-    }
-    #line{
-        left:4.5rem;
-        font-size:0.8rem;
-        top:0.7rem;
-    }
-    h3{
-        top:41rem;
-        font-size:0.8rem;
-        line-height:1.6rem;
-    }
-    #data-component{
-        height:23rem;
-    }
+@media (max-width:380px) {
     #balance{
-        width:11rem;
-    }
-    h2{
-        font-size:1rem;
-    }
-    #colorchange{
-        font-size:1.6rem;
+        width:13rem;
     }
     #data-component{
-        width:12rem;
+        width:14rem;
     }
     #weekly-component{
-        width:15rem;
-        right:1.5rem;
-    }
-    p{
-        left:0.2rem;
-        font-size:0.7rem;
+        width:17.3rem;
     }
     #blackone{
-        top:-5.5rem;
-        left:-0.3rem;
-        font-size:0.6rem;
+        left:-0.4rem;
     }
     #blacktwo{
-        top:-8rem;
-        left:2rem;
-        font-size:0.6rem;
+        left:2.1rem;
     }
     #blackthree{
-        top:-11.4rem;
-        left:4.3rem;
-        font-size:0.6rem;
+   
+        left:4.8rem;
     }
     #blackfour{
-        top:-7rem;
-        left:6.5rem;
-        font-size:0.6rem;
+        left:7rem;
     }
     #blackfive{
-        top:-6rem;
-        left:8.5rem;
-        font-size:0.6rem;
+        left:9.5rem;
     }
     #blacksix{
-        top:-9rem;
-        left:10.5rem;
-        font-size:0.6rem;
+        left:12rem;
     }
     #blackseven{
-        top:-6.5rem;
-        left:12.8rem;
-        font-size:0.6rem;
+        left:14.5rem;
+    }
+}
+@media (max-width:300px) {
+    #balance{
+        width:10rem;
+    }
+    #data-component{
+        width:11rem;
+    }
+    #weekly-component{
+        width:14rem;
+    }
+    h2{
+        font-size:0.9rem;
+    }
+    #blackthree{
+        left:4rem;
+    }
+    #blackfour{
+        left:6rem;
+    }
+    #blackfive{
+        left:7.8rem;
+    }
+    #blacksix{
+        left:10rem;
+    }
+    #blackseven{
+        left:12rem;
     }
 }
