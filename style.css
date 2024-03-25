@@ -208,7 +208,7 @@ button:nth-child(1){
     5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: var(--Softred);
     border:0;
-    border-radius:6px;
+    border-radius:3px;
     position: relative;
     top:6.5rem;
 }
@@ -220,7 +220,7 @@ button:nth-child(2){
     5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: var(--Softred);
     border:0;
-    border-radius:6px;
+    border-radius:3px;
     position: relative;
     top:4rem;
 }
@@ -241,7 +241,7 @@ button:nth-child(4){
     width:2.5rem;
     background-color: var(--Softred);
     border:0;
-    border-radius:6px;
+    border-radius:3px;
     box-shadow:
     inset -5px -5px 10px rgba(0, 0, 0, 0.5),
     5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -253,7 +253,7 @@ button:nth-child(5){
     width:2.5rem;
     background-color: var(--Softred);
     border:0;
-    border-radius:6px;
+    border-radius:3px;
     box-shadow:
     inset -5px -5px 10px rgba(0, 0, 0, 0.5),
     5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -268,7 +268,7 @@ button:nth-child(6){
     5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: var(--Softred);
     border:0;
-    border-radius:6px;
+    border-radius:3px;
     position: relative;
     top:2.6rem;
 }
@@ -280,13 +280,13 @@ button:nth-child(7){
     5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: var(--Softred);
     border:0;
-    border-radius:6px;
+    border-radius:3px;
     position: relative;
     top:5.6rem;
 }
-@media (max-width:490px) {
+@media (max-width:480px) {
     h4{
-        top:36rem;
+        top:41rem;
     }
     #color{
         font-size:1.2rem;
@@ -301,7 +301,7 @@ button:nth-child(7){
         top:2rem;
     }
     h3{
-        top:36rem;
+        top:41rem;
         font-size:0.9rem;
         line-height:1.6rem;
     }
@@ -394,7 +394,7 @@ button:nth-child(7){
 }
 @media (max-width:320px) {
     h4{
-        top:36rem;
+        top:42rem;
     }
     #color{
         font-size:1.2rem;
@@ -409,7 +409,7 @@ button:nth-child(7){
         top:0.7rem;
     }
     h3{
-        top:36rem;
+        top:41rem;
         font-size:0.8rem;
         line-height:1.6rem;
     }
